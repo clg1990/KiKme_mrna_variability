@@ -1,3 +1,4 @@
+library(rstudioapi)
 ####Determine normalization factor per donor for SIBERG####
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) 
 dirname(rstudioapi::getActiveDocumentContext()$path)
